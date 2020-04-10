@@ -1,0 +1,168 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-04-10T16:51:48.581Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1241744000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.wallethubtest.assignment.infrastructure.driver.Setup.setWebDriver()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Post a Message in Facebook Daily Feed",
+        "description": "",
+        "id": "facebook-daily-feed;post-a-message-in-facebook-daily-feed;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 179565000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.wallethubtest.assignment.infrastructure.driver.TearDown.quitDriver(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5608299000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "A user navigate to Facebook Login page",
+            "match": {
+              "location": "com.wallethubtest.assignment.homepage.HomePageSteps.aUserNavigatesToFacebookLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 253823000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters \"happytoday1029@gmail.com\" in email textfield",
+            "match": {
+              "arguments": [
+                {
+                  "val": "happytoday1029@gmail.com",
+                  "offset": 13
+                }
+              ],
+              "location": "com.wallethubtest.assignment.homepage.HomePageSteps.UserEnterEmail(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 133772000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters \"ASDFG@12345\" in password textfield",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ASDFG@12345",
+                  "offset": 13
+                }
+              ],
+              "location": "com.wallethubtest.assignment.homepage.HomePageSteps.UserEnterPassword(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 114807000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click on Login button",
+            "match": {
+              "location": "com.wallethubtest.assignment.homepage.HomePageSteps.UserClicksonLogin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7026014000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user check for the Facebook feed page",
+            "match": {
+              "location": "com.wallethubtest.assignment.homepage.HomePageSteps.UserDailyFeed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1061893000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters \"Hello World\" in the post and clicks Post button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hello World",
+                  "offset": 13
+                }
+              ],
+              "location": "com.wallethubtest.assignment.homepage.HomePageSteps.UserEnterPost(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 357532000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user checks for the \"Hello World\" in the daily feed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hello World",
+                  "offset": 21
+                }
+              ],
+              "location": "com.wallethubtest.assignment.homepage.HomePageSteps.UserChecksPost(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@facebook_page"
+          },
+          {
+            "name": "@facebook_post"
+          },
+          {
+            "name": "@sanity"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Facebook Daily Feed",
+    "description": "",
+    "id": "facebook-daily-feed",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com/wallethubtest/assignment/FBHomePage.feature",
+    "tags": []
+  }
+]

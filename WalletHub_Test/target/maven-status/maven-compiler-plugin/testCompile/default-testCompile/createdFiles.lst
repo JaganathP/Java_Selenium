@@ -1,0 +1,10 @@
+com/wallethubtest/assignment/wallethubpage/WallethubPage.class
+com/wallethubtest/assignment/infrastructure/driver/Setup.class
+com/wallethubtest/assignment/basepage/BasePage.class
+com/wallethubtest/assignment/homepage/HomePageSteps.class
+com/wallethubtest/assignment/WallethubPageTest.class
+com/wallethubtest/assignment/infrastructure/driver/TearDown.class
+com/wallethubtest/assignment/homepage/HomePage.class
+com/wallethubtest/assignment/HomePageTest.class
+com/wallethubtest/assignment/wallethubpage/WallethubPageSteps.class
+com/wallethubtest/assignment/infrastructure/driver/Wait.class
