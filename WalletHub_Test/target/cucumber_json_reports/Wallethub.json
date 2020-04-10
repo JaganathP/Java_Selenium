@@ -1,0 +1,178 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-04-10T16:51:20.323Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2750275000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.wallethubtest.assignment.infrastructure.driver.Setup.setWebDriver()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Verify the Review Section with Four Star Rating",
+        "description": "",
+        "id": "wallethub-review-section;verify-the-review-section-with-four-star-rating;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 153715000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.wallethubtest.assignment.infrastructure.driver.TearDown.quitDriver(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11323731000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "A user navigate to WalletHub Review page",
+            "match": {
+              "location": "com.wallethubtest.assignment.wallethubpage.WallethubPageSteps.aUserNavigatesToWallethubPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 393949000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user hovers and clicks on four Star review",
+            "match": {
+              "location": "com.wallethubtest.assignment.wallethubpage.WallethubPageSteps.userClicksonFourStar()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 247860000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user lands on review page here select Health Insurance from the dropdown",
+            "match": {
+              "location": "com.wallethubtest.assignment.wallethubpage.WallethubPageSteps.userSelectHealthInsurance()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2649519000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enter the \"Twinkle, twinkle, little star How I wonder what you are Up above the world so high Like a diamond in the sky Twinkle, twinkle little star How I wonder what you are When the blazing sun is gone When he nothing shines upon Then you show…\" in the textarea Section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Twinkle, twinkle, little star How I wonder what you are Up above the world so high Like a diamond in the sky Twinkle, twinkle little star How I wonder what you are When the blazing sun is gone When he nothing shines upon Then you show…",
+                  "offset": 16
+                }
+              ],
+              "location": "com.wallethubtest.assignment.wallethubpage.WallethubPageSteps.UserEnterReview(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 82379000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on Submit button on the top right header",
+            "match": {
+              "location": "com.wallethubtest.assignment.wallethubpage.WallethubPageSteps.userClicksSubmitButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4142856000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user lands on login page here select Login to tab",
+            "match": {
+              "location": "com.wallethubtest.assignment.wallethubpage.WallethubPageSteps.userClicksonLoginTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 411963000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters \"jagan.jaganath10@gmail.com\" with \"EE!T6c9h@XPWBr@\" and clicks on Login Button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jagan.jaganath10@gmail.com",
+                  "offset": 13
+                },
+                {
+                  "val": "EE!T6c9h@XPWBr@",
+                  "offset": 47
+                }
+              ],
+              "location": "com.wallethubtest.assignment.wallethubpage.WallethubPageSteps.UserEnterEmailandPassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5903550000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user checks for the \"Twinkle, twinkle, little star How I wonder what you are Up above the world so high Like a diamond in the sky Twinkle, twinkle little star How I wonder what you are When the blazing sun is gone When he nothing shines upon Then you show…\" in the Test Insurance Company Page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Twinkle, twinkle, little star How I wonder what you are Up above the world so high Like a diamond in the sky Twinkle, twinkle little star How I wonder what you are When the blazing sun is gone When he nothing shines upon Then you show…",
+                  "offset": 21
+                }
+              ],
+              "location": "com.wallethubtest.assignment.wallethubpage.WallethubPageSteps.UsercheckstheReview(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@walletHub"
+          },
+          {
+            "name": "@review"
+          },
+          {
+            "name": "@sanity"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "WalletHub Review Section",
+    "description": "",
+    "id": "wallethub-review-section",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com/wallethubtest/assignment/Wallethub.feature",
+    "tags": []
+  }
+]
