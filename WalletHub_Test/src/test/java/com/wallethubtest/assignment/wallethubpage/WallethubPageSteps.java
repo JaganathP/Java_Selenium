@@ -40,7 +40,7 @@ public class WallethubPageSteps {
 
         @Then("^user lands on login page here select Login Tab$")
         public void userClicksonLoginTab(){
-        this.wallethubPage.clicksLoginTab();
+        this.wallethubPage.clicksonLoginTab();
     }
 
         @Then("^user enters \"([^\"]*)\" with \"([^\"]*)\" and clicks on Login Button$")
