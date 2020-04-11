@@ -21,7 +21,7 @@ public class HomePage extends BasePage{
     @FindBy(id = "pass")
     private WebElement password;
 
-    @FindBy(id = "u_0_b")
+    @FindBy(xpath = "//label[@id='loginbutton']")
     private WebElement loginbutton;
 
     @FindBy(xpath = "//textarea[1]")
@@ -63,7 +63,7 @@ public class HomePage extends BasePage{
 
     void dailyFeed() {
         try {
-            Thread.sleep(1000);
+            Thread.sleep(5000);
         } catch (InterruptedException ie) {
             Thread.currentThread().interrupt();
         } 

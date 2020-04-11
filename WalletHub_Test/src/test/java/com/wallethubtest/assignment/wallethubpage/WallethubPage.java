@@ -87,7 +87,7 @@ public class WallethubPage extends BasePage{
         this.submitbutton.click();
     }
 
-    void clicksLoginTab() {
+    void clicksonLoginTab() {
         try {
             Thread.sleep(4000);
         } catch (InterruptedException ie) {
