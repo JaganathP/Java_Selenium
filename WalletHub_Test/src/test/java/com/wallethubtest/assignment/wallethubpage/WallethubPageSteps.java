@@ -38,7 +38,7 @@ public class WallethubPageSteps {
         this.wallethubPage.clicksSubmitButton();  
     } 
 
-        @Then("^user lands on login page here select Login to tab$")
+        @Then("^user lands on login page here select Login Tab$")
         public void userClicksonLoginTab(){
         this.wallethubPage.clicksLoginTab();
     }

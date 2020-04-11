@@ -44,7 +44,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.step({
-  "name": "user lands on login page here select Login to tab",
+  "name": "user lands on login page here select Login Tab",
   "keyword": "And "
 });
 formatter.step({
@@ -149,7 +149,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user lands on login page here select Login to tab",
+  "name": "user lands on login page here select Login Tab",
   "keyword": "And "
 });
 formatter.match({

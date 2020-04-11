@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-04-10T16:51:20.323Z",
+        "start_timestamp": "2020-04-10T17:10:04.232Z",
         "before": [
           {
             "result": {
-              "duration": 2750275000,
+              "duration": 2321486000,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 153715000,
+              "duration": 142549000,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 11323731000,
+              "duration": 9955838000,
               "status": "passed"
             },
             "line": 5,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 393949000,
+              "duration": 316931000,
               "status": "passed"
             },
             "line": 6,
@@ -59,7 +59,7 @@
           },
           {
             "result": {
-              "duration": 247860000,
+              "duration": 281917000,
               "status": "passed"
             },
             "line": 7,
@@ -71,7 +71,7 @@
           },
           {
             "result": {
-              "duration": 2649519000,
+              "duration": 2646891000,
               "status": "passed"
             },
             "line": 8,
@@ -89,7 +89,7 @@
           },
           {
             "result": {
-              "duration": 82379000,
+              "duration": 79868000,
               "status": "passed"
             },
             "line": 9,
@@ -101,11 +101,11 @@
           },
           {
             "result": {
-              "duration": 4142856000,
+              "duration": 5580024000,
               "status": "passed"
             },
             "line": 10,
-            "name": "user lands on login page here select Login to tab",
+            "name": "user lands on login page here select Login Tab",
             "match": {
               "location": "com.wallethubtest.assignment.wallethubpage.WallethubPageSteps.userClicksonLoginTab()"
             },
@@ -113,7 +113,7 @@
           },
           {
             "result": {
-              "duration": 411963000,
+              "duration": 404383000,
               "status": "passed"
             },
             "line": 11,
@@ -135,7 +135,7 @@
           },
           {
             "result": {
-              "duration": 5903550000,
+              "duration": 6006785000,
               "status": "passed"
             },
             "line": 12,

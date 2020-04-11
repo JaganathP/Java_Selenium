@@ -7,7 +7,7 @@ Feature: WalletHub Review Section
     Then user lands on review page here select Health Insurance from the dropdown
     And user enter the "<Review>" in the textarea Section
     Then user clicks on Submit button on the top right header
-    And user lands on login page here select Login to tab
+    And user lands on login page here select Login Tab
     Then user enters "<Email>" with "<Password>" and clicks on Login Button
     And user checks for the "<Review>" in the Test Insurance Company Page
 

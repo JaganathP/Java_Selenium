@@ -2,7 +2,6 @@ package com.wallethubtest.assignment.homepage;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
-import io.cucumber.java.en.When;
 import io.cucumber.java.en.Given;
 
 public class HomePageSteps {
@@ -29,7 +28,7 @@ public class HomePageSteps {
         this.homePage.enterPassword(password);
     }
 
-        @When("^user click on Login button$")
+        @And("^user click on Login button$")
         public void UserClicksonLogin() {
         this.homePage.clickLogin();
     }
@@ -39,7 +38,7 @@ public class HomePageSteps {
         this.homePage.dailyFeed();
     }
 
-        @Then("^user enters \"([^\"]*)\" in the post and clicks Post button$")
+        @Then("^user enters \"([^\"]*)\" in the post text area and clicks Post button$")
         public void UserEnterPost(final String message) {
         this.homePage.enterPost(message);
     }   

@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-04-10T16:51:48.581Z",
+        "start_timestamp": "2020-04-10T17:10:32.140Z",
         "before": [
           {
             "result": {
-              "duration": 1241744000,
+              "duration": 1281724000,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 179565000,
+              "duration": 179070000,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5608299000,
+              "duration": 5695769000,
               "status": "passed"
             },
             "line": 5,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 253823000,
+              "duration": 226538000,
               "status": "passed"
             },
             "line": 6,
@@ -65,7 +65,7 @@
           },
           {
             "result": {
-              "duration": 133772000,
+              "duration": 144220000,
               "status": "passed"
             },
             "line": 7,
@@ -83,7 +83,7 @@
           },
           {
             "result": {
-              "duration": 114807000,
+              "duration": 103948000,
               "status": "passed"
             },
             "line": 8,
@@ -91,11 +91,11 @@
             "match": {
               "location": "com.wallethubtest.assignment.homepage.HomePageSteps.UserClicksonLogin()"
             },
-            "keyword": "When "
+            "keyword": "And "
           },
           {
             "result": {
-              "duration": 7026014000,
+              "duration": 6488736000,
               "status": "passed"
             },
             "line": 9,
@@ -107,11 +107,11 @@
           },
           {
             "result": {
-              "duration": 1061893000,
+              "duration": 843075000,
               "status": "passed"
             },
             "line": 10,
-            "name": "user enters \"Hello World\" in the post and clicks Post button",
+            "name": "user enters \"Hello World\" in the post text area and clicks Post button",
             "match": {
               "arguments": [
                 {
@@ -125,7 +125,7 @@
           },
           {
             "result": {
-              "duration": 357532000,
+              "duration": 283744000,
               "status": "passed"
             },
             "line": 11,

@@ -37,14 +37,14 @@ formatter.step({
 });
 formatter.step({
   "name": "user click on Login button",
-  "keyword": "When "
+  "keyword": "And "
 });
 formatter.step({
   "name": "user check for the Facebook feed page",
   "keyword": "Then "
 });
 formatter.step({
-  "name": "user enters \"\u003cMessage\u003e\" in the post and clicks Post button",
+  "name": "user enters \"\u003cMessage\u003e\" in the post text area and clicks Post button",
   "keyword": "And "
 });
 formatter.step({
@@ -126,7 +126,7 @@ formatter.result({
 });
 formatter.step({
   "name": "user click on Login button",
-  "keyword": "When "
+  "keyword": "And "
 });
 formatter.match({
   "location": "com.wallethubtest.assignment.homepage.HomePageSteps.UserClicksonLogin()"
@@ -145,7 +145,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user enters \"Hello World\" in the post and clicks Post button",
+  "name": "user enters \"Hello World\" in the post text area and clicks Post button",
   "keyword": "And "
 });
 formatter.match({

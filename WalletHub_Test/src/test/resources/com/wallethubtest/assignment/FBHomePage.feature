@@ -5,9 +5,9 @@ Feature: Facebook Daily Feed
     Given A user navigate to Facebook Login page
     Then user enters "<Email>" in email textfield
     Then user enters "<Password>" in password textfield
-    When user click on Login button
+    And user click on Login button
     Then user check for the Facebook feed page
-    And user enters "<Message>" in the post and clicks Post button
+    And user enters "<Message>" in the post text area and clicks Post button
     Then user checks for the "<Message>" in the daily feed
 
     Examples:
